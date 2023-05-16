@@ -5,44 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="04e68990-9ce2-408d-846c-b2947cad4378" name="Changes" comment="git提交测试">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Xx-HelloWorld/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Xx-HelloWorld/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Xx-HelloWorld/src/main/java/com/zdz/HelloWorld.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Xx-HelloWorld/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Xx-actuator/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Xx-actuator/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Xx-actuator/src/main/java/com/zdz/SpringBootDemoActuatorApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Xx-actuator/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Xx-admin/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Xx-admin/admin-client/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Xx-admin/admin-client/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Xx-admin/admin-client/src/main/java/com/zdz/SpringBootDemoAdminClientApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Xx-admin/admin-client/src/main/java/com/zdz/controller/IndexController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Xx-admin/admin-client/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Xx-admin/admin-server/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Xx-admin/admin-server/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Xx-admin/admin-server/src/main/java/com/zdz/SpringBootDemoAdminServerApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Xx-admin/admin-server/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Xx-admin/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Xx-logback/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Xx-logback/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Xx-logback/src/main/java/org/example/App.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Xx-logback/src/test/java/org/example/AppTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Xx-properties/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Xx-properties/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Xx-properties/src/main/java/com/zdz/SpringBootDemoPropertiesApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Xx-properties/src/main/java/com/zdz/controller/ApplicationPropertyController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Xx-properties/src/main/java/com/zdz/property/ApplicationProperty.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Xx-properties/src/main/java/com/zdz/property/DeveloperProperty.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Xx-properties/src/main/resources/application-dev.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Xx-properties/src/main/resources/application-prod.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Xx-properties/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -209,8 +172,16 @@
       <option name="presentableId" value="Default" />
       <updated>1684198678726</updated>
       <workItem from="1684198679884" duration="1872000" />
-      <workItem from="1684201579036" duration="7298000" />
+      <workItem from="1684201579036" duration="8691000" />
     </task>
+    <task id="LOCAL-00001" summary="git提交测试">
+      <created>1684210666033</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1684210666033</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
