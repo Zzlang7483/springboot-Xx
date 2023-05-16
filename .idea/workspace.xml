@@ -4,8 +4,31 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="04e68990-9ce2-408d-846c-b2947cad4378" name="Changes" comment="git提交测试">
+    <list default="true" id="04e68990-9ce2-408d-846c-b2947cad4378" name="Changes" comment="修改logback-&gt; pom.xml文件">
+      <change afterPath="$PROJECT_DIR$/Xx-exception-handler/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Xx-exception-handler/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Xx-exception-handler/src/main/java/com/zdz/SpringBootExceptionHandlerApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Xx-exception-handler/src/main/java/com/zdz/constant/Status.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Xx-exception-handler/src/main/java/com/zdz/controller/TestController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Xx-exception-handler/src/main/java/com/zdz/exception/BaseException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Xx-exception-handler/src/main/java/com/zdz/exception/JsonException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Xx-exception-handler/src/main/java/com/zdz/exception/PageException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Xx-exception-handler/src/main/java/com/zdz/handler/DemoExceptionHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Xx-exception-handler/src/main/java/com/zdz/model/ApiResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Xx-log-aop/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Xx-log-aop/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Xx-log-aop/src/main/java/com/zdz/SpringBootDemoLogAopApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Xx-log-aop/src/main/java/com/zdz/annotation/OperationLogAnnotation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Xx-log-aop/src/main/java/com/zdz/aspjectj/LogAop.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Xx-log-aop/src/main/java/com/zdz/controller/UserController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Xx-log-aop/src/main/java/com/zdz/dao/Log.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Xx-log-aop/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Xx-log-aop/src/main/resources/logback-spring.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Xx-log-aop/src/test/java/LogTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Xx-logback/src/main/java/org/example/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/Xx-logback/src/main/java/org/example/App.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -15,6 +38,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="AnnotationType" />
+        <option value="Enum" />
         <option value="Class" />
       </list>
     </option>
@@ -66,7 +91,7 @@
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.15527344",
     "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "vcs.Git",
+    "settings.editor.selected.configurable": "reference.settings.project.maven.importing",
     "spring.configuration.checksum": "1559ff98e8504c584af245489b7fa4f6",
     "vue.rearranger.settings.migration": "true"
   },
@@ -87,16 +112,23 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.SpringBootDemoAdminClientApplication">
-    <configuration name="HelloWorld" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
-      <module name="Xx-HelloWorld" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.zdz.HelloWorld" />
+  <component name="RunManager" selected="Spring Boot.App">
+    <configuration name="App" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="Xx-logback" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="org.example.App" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.zdz.*" />
+          <option name="PATTERN" value="org.example.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="HelloWorld" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="Xx-HelloWorld" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.zdz.HelloWorld" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -140,6 +172,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="SpringBootDemoLogAopApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="Xx-log-aop" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.zdz.SpringBootDemoLogAopApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="SpringBootDemoPropertiesApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
       <module name="Xx-properties" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.zdz.SpringBootDemoPropertiesApplication" />
@@ -155,11 +194,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Spring Boot.App" />
         <item itemvalue="Spring Boot.SpringBootDemoAdminClientApplication" />
         <item itemvalue="Spring Boot.SpringBootDemoAdminServerApplication" />
         <item itemvalue="Spring Boot.SpringBootDemoActuatorApplication" />
         <item itemvalue="Spring Boot.SpringBootDemoPropertiesApplication" />
-        <item itemvalue="Spring Boot.HelloWorld" />
       </list>
     </recent_temporary>
   </component>
@@ -172,7 +211,7 @@
       <option name="presentableId" value="Default" />
       <updated>1684198678726</updated>
       <workItem from="1684198679884" duration="1872000" />
-      <workItem from="1684201579036" duration="8691000" />
+      <workItem from="1684201579036" duration="17580000" />
     </task>
     <task id="LOCAL-00001" summary="git提交测试">
       <created>1684210666033</created>
@@ -181,7 +220,14 @@
       <option name="project" value="LOCAL" />
       <updated>1684210666033</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="修改logback-&gt; pom.xml文件">
+      <created>1684211795017</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1684211795017</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -201,6 +247,7 @@
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="git提交测试" />
-    <option name="LAST_COMMIT_MESSAGE" value="git提交测试" />
+    <MESSAGE value="修改logback-&gt; pom.xml文件" />
+    <option name="LAST_COMMIT_MESSAGE" value="修改logback-&gt; pom.xml文件" />
   </component>
 </project>
