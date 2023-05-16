@@ -1,0 +1,10 @@
+application:
+  name: dev环境 @artifactId@
+  version: dev环境 @version@
+
+
+developer:
+  name: dev环境 zdz
+  website: dev环境
+  qq: dev环境 252012798
+  phone-number: dev环境
